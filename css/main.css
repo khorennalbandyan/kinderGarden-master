@@ -1,0 +1,551 @@
+header {
+    background: url(../img/main__bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 960px;
+}
+.container-fluid {
+    max-width: 1920px;
+}
+.best_choise__wrraper {
+    padding-right: 9.6%;
+    padding-top: 160px;
+}
+.best_choise {
+    font-family: "MyriadPro-Regular";
+    color: #ffffff;
+    font-size: 23px;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+.line {
+    position: relative;
+    border-bottom: 4px solid #5e42b0;
+}
+.first_line {
+    transform: rotate(126deg);
+    position: absolute;
+    top: 84%;
+    left: 31%;
+    z-index: 1;
+    border-bottom: 4px solid #5e42b0;
+    width: 26%;
+}
+.discribe {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    font-family: "MyriadPro-Regular";
+    font-size: 80px;
+    font-weight: bolder;
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+.discribe_wrraper  {
+    padding-top: 10%;
+    padding-right: 7%;
+}
+.button_wrraper {
+    margin-top: 10%;
+}
+.header_button{
+    transition: all ease .5s;
+    font-family: "MyriadPro-Regular";
+    font-weight: 600;
+    background: #5e42b0;
+    padding: 18px 56px 16px;
+    border: none;
+    font-size: 32px;
+    box-shadow: 0px 16px 24px 0px rgba(10, 14, 52, 0.004);
+    border-radius: 38px;
+    color: #ffffff;
+    line-height: 0.958;
+    letter-spacing: 3px;
+}
+.header_button:hover {
+    transition: all ease .5s;
+    cursor: pointer;
+    background: #ffffff;
+    color: #a28ae8;
+}
+.first_subtitle__wrraper{
+    margin-top: 10%;
+}
+.first_subtitle {
+    margin-bottom: 5%;
+    font-family: "MyriadPro-Regular";
+    font-size: 60px;
+    font-weight: 600;
+    color: #e7e7e7;
+}
+.subtitle_num {
+    font-family: "Proxima-Nova-Bold";
+    font-size: 18px;
+    font-weight: 900;
+    border-bottom: 4px solid #5e42b0;
+    border-radius: 2px;
+}
+.subtitle_num__zero_three {
+    border-bottom: 4px solid #efefef;
+}
+.subtitle_num__wrraper {
+    padding-top: 5%;
+}
+.subtitle_header {
+    font-family: "MyriadPro-Regular";
+    font-weight: 300;
+    font-size: 36px;
+    color: #c1c1c1;
+}
+.subtitle_header__one {
+    color: #cdc2b9;
+}
+.subtext {
+    font-family: "MyriadPro-Regular";
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 22px;
+    margin-bottom: 8%;
+}
+.par_zero_two {
+    width: 68%;
+}
+.par_zero__three {
+    width: 56.8%;
+    color: #ffffff;
+}
+.child_in__home {
+    position: absolute;
+    left: 30%;
+    top: 16%;
+    max-width: 65%;
+    height: auto;
+}
+.second_line {
+    transform: rotate(130deg);
+    position: absolute;
+    top: 54%;
+    left: 0%;
+    z-index: 1;
+    border-bottom: 4px solid #5e42b0;
+    width: 85%;
+}
+.third_line {
+    transform: rotate(130deg);
+    position: absolute;
+    top: 64%;
+    left: 72%;
+    z-index: 1;
+    border-bottom: 4px solid #5e42b0;
+    width: 35%;
+}
+.first__end_line {
+    background: #9950e4;
+}
+.players {
+    font-family: "Proxima-Nova-Bold";
+    font-size: 60px;
+    color: #e7e7e7;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.second_part__subtitle {
+    font-size: 36px;
+    color: #c1c1c1;
+}
+.connection_text {
+    width: 50%;
+}
+.for_house__first {
+    transform: rotate(130deg);
+    position: absolute;
+    top: 10.1%;
+    left: 61%;
+    z-index: 1;
+    border-bottom: 4px solid #5e42b0;
+    width: 14%;
+}
+.for_house__second {
+    transform: rotate(130deg);
+    position: absolute;
+    top: 150%;
+    left: 8%;
+    z-index: 1;
+    border-bottom: 4px solid #5e42b0;
+    width: 38%;
+}
+.child_in__house {
+    z-index: 100;
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    max-width: 62%;
+    height: auto;
+}
+.collaboration_text {
+    width: 80%;
+}
+.for_bg {
+    background: #f5f6f7;
+    padding-top: 3%;
+}
+.second__end_line {
+    padding-top: 4%;
+    padding-bottom: 1%;
+    background: #0a0e34;
+}
+.last_text {
+    color: #ffffff;
+}
+.last_num {
+    font-family: "Proxima-Nova-Bold";
+    font-size: 18px;
+    font-weight: 900;
+    border-bottom: 4px solid #ffffff;
+    border-radius: 2px;
+    color: #5e42b0;
+}
+.drawing_kids {
+    min-width: 100%;
+    height: auto;
+}
+.pic_header {
+    font-family: "Proxima-Nova-Bold";
+    font-size: 80px;
+    color: #f9f7ef; /*Grish es guynov chi erevum maketi mej es guyna es tence toxelem ete heto petqa asa poxem*/
+}
+.first_wrraper {
+    padding-top: 26%;
+    padding-left: 20%;
+}
+.first_pic__header {
+    margin-bottom: 20%;
+}
+.first_pic__text {
+    margin-bottom: 16%;
+    width: 47%;
+}
+.pic__text {
+    font-family: "Proxima-Nova";
+    font-size: 18px;
+    line-height: 22px;
+}
+.first_pic_line {
+    border-bottom: 4px solid #5e42b0;
+    width: 30px;
+    border-radius: 3px;
+}
+.box_number {
+    z-index: 20;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 160px;
+    height: 145px;
+    background: #9950e4;
+}
+.box_number_one {
+    margin-top: 11.8%;
+}
+.box_number span {
+    font-family: "Proxima-Nova-Bold";
+    color: #ffffff;
+    border-bottom: 4px solid #dab9f1;
+    border-radius: 2px;
+    font-size: 20px;
+}
+.second_wrraper {
+    padding-top: 26%;
+    padding-left: 10%;
+}
+.second_pic__header {
+    margin-bottom: 20%;
+}
+.second_pic__text {
+    margin-bottom: 16%;
+    width: 47%;
+}
+.second_pic_line {
+    border-bottom: 4px solid #5e42b0;
+    width: 30px;
+    border-radius: 3px;
+}
+.box_number_two {
+   margin-top: 11.5%;
+}
+.kids_on__carpet {
+    min-width: 100%;
+    height: auto;
+}
+.box_number_two span {
+    font-family: "Proxima-Nova-Bold";
+    color: #ffffff;
+    border-bottom: 4px solid #dab9f1;
+    border-radius: 2px;
+    font-size: 20px;
+}
+.kid_in__playyeard {
+    width: 100%;
+    height: auto;
+}
+.box_number_three {
+   margin-top: 12%;
+}
+.box_number_three span {
+    font-family: "Proxima-Nova-Bold";
+    color: #ffffff;
+    border-bottom: 4px solid #dab9f1;
+    border-radius: 2px;
+    font-size: 20px;
+}
+.third_wrraper {
+    padding-top: 26%;
+    padding-left: 22%;
+}
+.third_pic__header {
+    margin-bottom: 10%;
+}
+.third_pic__text {
+    margin-bottom: 6%;
+    width: 47%;
+}
+.footer_title {
+    font-family: "MyriadPro-Regular";
+    font-weight: 900;
+    font-size: 50px;
+    color: #ffffff;
+    letter-spacing: 6px;
+}
+.footer_text {
+    font-family: "MyriadPro-Regular";
+    font-size: 30px;
+    line-height: 28px;
+    word-spacing: 6px;
+    width: 30%;
+    color: #ffffff;
+}
+.button_footer {
+    transition: all ease .5s;
+    font-family: serif;
+    background: #c683f3;
+    border: none;
+    color: #ffffff;
+    font-size: 36px;
+    width: 220px;
+    padding: 0 66px;
+    font-family: "MyriadPro-Regular";
+    border-radius: 38px;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+}
+.button_footer:hover {
+    transition: all ease .5s;
+    background: #ffffff;
+    color: #c683f3
+}
+.buttons__wrraper {
+    padding-top: 7%;
+}
+.footer-content {
+    background: url(../img/playing_room__bg.png);
+    padding-top: 10%;  
+    padding-bottom: 10%;  
+    background-size: cover; 
+}
+footer {
+    background: #121256;
+}
+.icon {
+    transition: all ease .5s;
+    color: #ffffff;
+}
+.icon:hover {
+    transition: all ease .5s;
+    color: #c683f3;
+}
+.contacts {
+    font-family: "MyriadPro-Regular";
+    color: #ffffff;
+    font-size: 18px;
+}
+.footer_line {
+    position: relative;
+    border-bottom: 4px solid #f0d3fc;
+}
+.footer_line__first {
+    transform: rotate(130deg);
+    position: absolute;
+    top: 34%;
+    left: 29%;
+    z-index: 1;
+    width: 10%;
+}
+.footer_line__second {
+    transform: rotate(130deg);
+    position: absolute;
+    top: 60%;
+    right: 24%;
+    z-index: 1;
+    width: 20%;
+}
+  
+
+
+
+
+@media(max-width:1600px) {
+    .pic_header {
+        font-size: 50px;
+    } 
+    .for_house__second {
+        top: 110%;
+        left: -8%;
+    }
+}
+@media(max-width:1100px) {
+    .for_house__second {
+        top: 90%;
+        left: -8%;
+    }
+}
+@media(max-width:1200px){
+    .second_line {
+        left: 16%;
+        top: 28%;
+        width: 45%;
+    }
+    .third_line {
+        top: 30%;
+        left: 62%;
+        z-index: 1;
+        border-bottom: 4px solid #5e42b0;
+        width: 25%;
+    }
+    .pic_header {
+        padding: 0;
+        margin: 0;
+    }
+    .pic__text {
+        margin-left: 15px;
+        padding: 0;
+        margin: 0;
+    }
+    .second_wrraper {
+        padding-top: 0;
+        padding-left: 1%;
+    }
+    .third_wrraper {
+        padding-top: 0;
+        padding-left: 1%;
+    }
+    .box_number_two {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .first_pic__text {
+        width: 100%;
+    }
+    .first_wrraper {
+        padding-top: 0;
+        padding-left: 1%;
+    }
+    .second_pic__text {
+        width: 100%;
+    }
+    .third_pic__text {
+        width: 100%;
+    }
+    .footer_line__second {
+        top: 60%;
+        right: 20%;
+    }
+}
+@media (max-width: 991px) {   
+    .discribe {
+        font-size: 50px;
+    }
+    .second_line {
+        left: 18%;
+        top: 20%;
+        width: 35%;
+    }
+    .child_in__home {
+        position: static;
+    }
+    .child_in__house {
+        position: static;
+    }
+    .for_house__second {
+        top: 93%;
+        left: 18%;
+        width: 14%;
+    }
+    .footer_text {
+        font-size: 16px;
+    }
+    .footer_line__second {
+        top: 60%;
+        right: 19%;
+    }
+    
+}
+@media (max-width: 771px) {   
+    .second_line {
+        left: 28%;
+        top: 20%;
+        width: 20%;
+    }
+    .line {
+        display: none;
+    }
+    .footer_line {
+        display: none;
+    }
+    .footer_title {
+        font-size: 30px;
+    }
+    .footer_text {
+        width: 100%;
+    }
+    .button_footer {
+        width: 120px;
+        font-size: 20px;
+        padding: 0;
+    }
+}
+@media (max-width: 576px) {
+    .discribe {
+        font-size: 30px;
+    }
+    .header_button {
+        padding: 9px 28px 8px;
+        font-size: 16px;
+    }
+    header {
+        height: 650px;
+    }
+    .contacts {
+        font-size: 14px;
+    }
+    .pic_header {
+        font-size: 30px;
+    }
+    .pic__text {
+        font-size: 16px;
+    }
+    .subtext {
+        font-size: 12px;
+    }
+    .second_part__subtitle {
+        font-size: 18px;
+    }
+    .subtitle_header {
+        font-size: 18px;
+    }
+    .first_subtitle {
+        font-size: 18px;
+    }
+}
